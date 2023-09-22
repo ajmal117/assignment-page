@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-color: #b0c5ca;
+    }
+
+    .hovIcon:hover {
+      border-left: 5px solid rgb(233, 226, 240);
+      color: red;
+      cursor: pointer;
+    }
+
+    table td {
+      padding: 4px;
+    }
+
+    table td label {
+      padding: 0px 0px 5px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <div class="container border border-primary my-3 p-0 d-flex "
+    style="height: 90vh; background-color: #f5f6f8 ;border-radius:2rem; ">
+    <div class="d-inline-block h-100"
+      style="width: 5rem; background-color: #0a586c ;border-top-left-radius:2rem;border-bottom-left-radius: 2rem;">
+      <div class="#fbf9fff5 py-4 ">
+        <div class="mb-4 mx-4">
+          <i class="bi bi-patch-plus-fill" style="filter: invert(1)"></i>
+        </div>
+        <div class="d-flex flex-column " style="filter: invert(1); gap: 1rem;">
+          <div class="hovIcon d-inline-block  px-4 "><i class="bi bi-window-split"></i></div>
+          <div class="hovIcon d-inline-block  px-4 "><i class="bi bi-people-fill"></i></div>
+          <div class="hovIcon d-inline-block  px-4 "><i class="bi bi-graph-up"></i></div>
+          <div class="hovIcon d-inline-block  px-4 ">
+            <i class="bi bi-card-checklist"></i>
+          </div>
+          <div class="hovIcon d-inline-block  px-4 ">
+            <i class="bi bi-calendar-plus"></i>
+          </div>
+          <div class="hovIcon d-inline-block  px-4 ">
+            <i class="bi bi-folder"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-4 px-5 d-flex  flex-column" style="gap: 1.5rem;">
+      <div class="container d-flex justify-content-between ">
+        <div class="d-flex my-auto"><i class="bi bi-arrow-left me-2"></i><span>Back To Dashboard</span></div>
+        <div class="d-flex" style="gap: 2rem;"><i class="bi bi-bell" style="color: red;margin:auto 0;"></i>
+          <div><img src="./pic.png" alt=""
+              style="height: 3rem;width: 3rem; border-radius: 50%; margin-right: 1rem;"><select name="Select Name" id=""
+              style="border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; outline-style: none;">
+              <option value="">Dr. Alex Hess</option>
+            </select></div>
+        </div>
+      </div>
+      <div>
+        <h4>Current Appointment</h4>
+      </div>
+      <div class="d-flex" style="gap:1rem;">
+        <div class="d-flex flex-column " style="height: 70vh; width: 16vw; gap:1rem;">
+          <div class=" rounded-3 bg-light d-flex flex-column py-4 " style="height: 30vh; padding: 0 6rem;">
+            <img src="./pic.png" alt="" style="height: 6rem;width: 6rem; margin: auto 1rem;">
+            <h5 class="mx-auto">Ajmal Ali</h5>
+            <p class="mx-auto">Age:27</p>
+            <button type="button" class="btn "
+              style="width:7rem;background-color: rgb(84, 180, 84);color: white;">Updated</button>
+          </div>
+          <div class=" rounded-3 bg-light p-3" style="height:38vh">
+            <h5>Information:</h5>
+            <div>
+              <table style="width: 100%;">
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td>
+                    <h6>Gender:</h6>
+                  </td>
+                  <td><label for="">Male</label></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h6>Blood Type:</h6>
+                  </td>
+                  <td><label for="">O+(Positive)</label></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h6>Allergies:</h6>
+                  </td>
+                  <td><label for="">Milk,Penicilin</label></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h6>Diseases:</h6>
+                  </td>
+                  <td><label for="">Diabetes,blood disorder</label></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h6>Height:</h6>
+                  </td>
+                  <td><label for="">1.68m</label></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h6>weight:</h6>
+                  </td>
+                  <td><label for="">65kg</label></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h6>Patient ID:</h6>
+                  </td>
+                  <td><label for="">202306586</label></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h6>Last Visit:</h6>
+                  </td>
+                  <td><label for="">25th October 2019</label></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column" style="gap: 1rem;">
+          <div class="d-flex" style="height: 17vh; gap: 1rem;">
+            <div class=" rounded-3  bg-light p-3 d-flex flex-column" style="height: 17vh;width: 14vw;gap: 10px;">
+              <i class="bi bi-heart-pulse-fill mx-auto"></i>
+              <p class="mx-auto"> Heart Rate</p>
+              <h3 class="mx-auto">80bpm</h3>
+            </div>
+            <div class=" rounded-3 bg-light p-3 d-flex flex-column" style="height: 17vh;width: 14vw; gap: 10px;">
+              <i class="bi bi-thermometer-half mx-auto"></i>
+              <p class="mx-auto">Body Temperature</p>
+              <h3 class="mx-auto">36.5&deg;C</h3>
+            </div>
+            <div class=" rounded-3 bg-light p-3 d-flex flex-column" style="height: 17vh;width: 14vw;gap: 10px;">
+              <i class="bi bi-heart-pulse-fill mx-auto"></i>
+              <p class="mx-auto">Glucose</p>
+              <h3 class="mx-auto">100mg/dl</h3>
+            </div>
+          </div>
+          <div class="  rounded-3 p-3 bg-light" style="height: 17vh;">
+            <h5 class="my-3">Test Reports</h5>
+            <div class="d-flex  " style="gap:2rem;">
+              <div class=" d-flex" style="width: 13vw; gap: 1rem;">
+                <div><img src="./list.png" alt="" style="height: 3rem; width: 3rem;"></div>
+                <div class="d-flex flex-column">
+                  <h6>CT scan-Full body</h6>
+                  <p>12th february 2020</p>
+                </div>
+              </div>
+              <div class=" d-flex" style="width: 13vw; gap: 1rem;">
+                <div><img src="./list.png" alt="" style="height: 3rem; width: 3rem;"></div>
+                <div class="d-flex flex-column">
+                  <h6>Creatine Kinase T</h6>
+                  <p>12th february 2020</p>
+                </div>
+              </div>
+              <div class=" d-flex" style="width: 13vw; gap: 1rem;">
+                <div><img src="./list.png" alt="" style="height: 3rem; width: 3rem;"></div>
+                <div class="d-flex flex-column">
+                  <h6>Eye Flouresine Test</h6>
+                  <p>12th february 2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" p-3 bg-white" style="height:32vh;">
+            <h5>Prescriptions</h5>
+            <button id="uploadFile" class="btn rounded-3 border-danger"
+              style="border-style:dotted; background-color: rgb(243, 239, 239);">
+              <div class=" d-flex justify-content-center " style="width:42vw;height:6vh;">
+                <h6 class="text-success my-auto">+Add a prescriptions</h6>
+              </div>
+            </button>
+            <div>
+              <table class="my-3" style="width: 100%;">
+                <tr>
+                  <th>Prescriptions</th>
+                  <th>Date</th>
+                  <th>Duration</th>
+                </tr>
+                <tr>
+                  <td><img src="./list.png" alt="" style="height: 20px; width: 20px;"><label class="fw-bold px-2">Health
+                      Diseases</label></td>
+                  <td>25th October 2019</td>
+                  <td>3 Months</td>
+                </tr>
+                <tr>
+                  <td><img src="./list.png" alt="" style="height: 20px; width: 20px;"><label class="fw-bold px-2">Skin
+                      Care</label></td>
+                  <td>8th October 2019</td>
+                  <td>3 Months</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('uploadFile').addEventListener('click', (e) => {
+      alert('upload file Button')
+      console.log("click",e)
+    })
+  </script>
+</body>
+
+</html>
